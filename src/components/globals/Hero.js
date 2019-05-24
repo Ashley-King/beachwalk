@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import homeImg from "../../images/homeBcg.jpeg";
+import { setFlex } from "../../styles";
+import { setBackground } from "../../styles";
+
 const Hero = styled.header`
   min-height: 100vh;
-  background: url(${props => props.img}) center/cover no-repeat fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  ${props => setBackground({ img: props.img, color: "rgba(0,0,0,0.5)" })};
+  ${setFlex({ x: "center", y: "center" })};
 `;
 
 export default Hero;
