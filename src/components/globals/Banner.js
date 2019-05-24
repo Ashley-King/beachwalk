@@ -16,6 +16,37 @@ const Banner = ({ title, text, children, greeting }) => {
   );
 };
 
-const BannerWrapper = styled.div``;
+const BannerWrapper = styled.div`
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 60px 32px;
+  /* setRem */
+  letter-spacing: 3px;
+  /* setLetterSpacing */
+  color: ${setColor.mainWhite};
+  h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    color: ${setColor.primaryColor};
+    span {
+      color: ${setColor.mainWhite};
+    }
+  }
+  p {
+    width: 85%;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    width: 70vw;
+    border: 6px solid ${setColor.primaryColor};
+    p {
+      width: 75%;
+    }
+    h1{
+      /* animation */
+    }
+    
+  }
+`;
 
 export default Banner;
