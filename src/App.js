@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <>
         <GlobalStyles />
-        <h1>Here's a heading</h1>
+
         <Home />
       </>
     );
