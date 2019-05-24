@@ -1,4 +1,4 @@
-# Here's a site built with React and Styled Components: [check it out](beachwalk-0ff44e.netlify.com)
+# Here's a site built with React and Styled Components: [check it out](https://beachwalk-0ff44e.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
