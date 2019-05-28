@@ -5,8 +5,10 @@ import {
   setColor,
   setLetterSpacing,
   setBorder,
-  media
+  media,
+  fadeIn
 } from "../../styles";
+
 
 const Banner = ({ title, text, children, greeting }) => {
   return (
@@ -50,9 +52,11 @@ const BannerWrapper = styled.div`
 
   h1 {
     /* animation */
+    ${fadeIn("100%", "-10%", "0")}
   }
   .info {
     /* animation */
+    ${fadeIn("-100%", "10%", "0")}
   }
 `;
 
