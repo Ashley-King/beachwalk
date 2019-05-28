@@ -9,6 +9,6 @@ export default styled(Title)`
   font-size: ${setRem(36)};
   text-transform: capitalize;
   ${setLetterSpacing(5)};
-  ${setFont.slanted};
+  font-family: ${setFont.slanted};
   text-align: ${props => (props.center ? "center" : "left")};
 `;

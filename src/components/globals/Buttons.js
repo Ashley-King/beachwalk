@@ -15,9 +15,10 @@ export const PrimaryBtn = styled.button`
   text-transform: capitalize;
   font-size: ${setRem(18)};
   ${setFont.main};
-  ${props =>
+  padding: ${setRem(17)} ${setRem(36)};
+  /* ${props =>
     `padding: ${props.pt || 0} ${props.pr || 0} ${props.pb || 0} ${props.pl ||
-      0}`};
+      0}`}; */
   ${setBorder({ color: setColor.champagnePink })};
   ${setLetterSpacing()};
   ${setTransition({ time: "0.5s" })};
@@ -30,4 +31,10 @@ export const PrimaryBtn = styled.button`
       0}`};
   text-decoration: none;
   cursor: pointer;
+`;
+
+// mt="1rem" pr="2rem" pl="2rem" pt="1rem" pb="1rem"
+
+export const SmallBtn = styled(PrimaryBtn)`
+  padding: ${setRem(9)} ${setRem(12)};
 `;

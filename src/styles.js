@@ -17,7 +17,7 @@ export const setColor = {
 // set the fonts
 export const setFont = {
   main: "'Lato', sans-serif;",
-  slanted: "'Courgette', cursive;"
+  slanted: "'Courgette', cursive !important;"
 };
 
 // set up flex container
@@ -43,11 +43,9 @@ export const setBackground = ({
 
 // set up font-size
 export const setRem = (number = 16) => {
-  return `
-    ${number / 16}rem;
-  `;
+  return `${number / 16}rem`;
+  
 };
-
 
 // set up letter spacing
 export const setLetterSpacing = (number = 2) => {
@@ -63,8 +61,7 @@ export const setBorder = ({
   color = "black"
 } = {}) => {
   return `
-    border: ${width} ${style} ${color};
-  `;
+    border: ${width} ${style} ${color}`;
 };
 // for media queries
 const sizes = {
