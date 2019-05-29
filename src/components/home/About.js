@@ -78,6 +78,7 @@ const AboutCenter = styled.div`
      }
    }
   `}
+  
 `;
 
 export default About;
