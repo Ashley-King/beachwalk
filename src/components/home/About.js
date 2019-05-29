@@ -58,7 +58,7 @@ const AboutCenter = styled.div`
   }
   width: 90vw;
   margin: 0 auto;
-  ${media.desktop`
+  ${media.large`
   .about-img,
   .about-info {
     padding: ${setRem(0)};
@@ -78,7 +78,6 @@ const AboutCenter = styled.div`
      }
    }
   `}
-  
 `;
 
 export default About;

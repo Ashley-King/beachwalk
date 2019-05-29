@@ -72,11 +72,13 @@ export default styled(Room)`
   }
   .room-info {
     padding: ${setRem()};
+
     h4 {
       text-transform: capitalize;
       ${setLetterSpacing()};
     }
     p {
+      margin-bottom: ${setRem()};
       ${setLetterSpacing()};
     }
   }
