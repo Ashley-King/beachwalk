@@ -4,7 +4,7 @@ import { SmallBtn } from "../globals/Buttons";
 const Room = () => {
   return (
     <div>
-      <SmallBtn>hello from single room</SmallBtn>
+      <SmallBtn>hello</SmallBtn>
     </div>
   );
 };
